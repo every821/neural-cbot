@@ -1,5 +1,5 @@
 """
-Copyright (C) 2020 Nedeljko Vignjević
+Copyright (C) 2020 Brilliant
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ from tensorflow import keras
 
 # Global variables
 BOT = None
-TOKEN = 'NzI4MDIwNDU3OTc4MjAwMDk1.Xv0oNg.zVbZRCsQbuVG_25YXNX2i8OUGWw'   # DO NOT USE :D
+TK = ''   # DO NOT USE :D
 client = discord.Client()
 
 
@@ -49,4 +49,4 @@ if __name__ == '__main__':
     BOT = Bot(model)
 
     # Run bot on discord
-    client.run(TOKEN)
+    client.run(TK)
